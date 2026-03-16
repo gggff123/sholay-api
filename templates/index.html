@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sholay API Docs</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<h1>Sholay API Docs</h1>
+<p><small>This is the API for the movie <b>Sholay</b></small></p>
+
+<header><big>Methods</big></header>
+
+<div class="methods">
+
+<div class="method">
+<p class="title">Home</p>
+<small>Shows API homepage</small>
+<br>
+<code>GET /</code>
+</div>
+
+<div class="method">
+<p class="title">Get All Data</p>
+<small>Returns full movie information</small>
+<br>
+<code>GET /get-all</code>
+</div>
+<style>
+
+body{
+    text-align:center;
+    font-family:Roboto;
+    background:#f6f6f6;
+}
+
+h1{
+    font-family:Fjalla One;
+    font-size:70px;
+    margin:0;
+    background-image:url("https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Sholay-poster.jpg/250px-Sholay-poster.jpg");
+    background-size:cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+p{
+    margin:5px;
+    color:#555;
+}
+
+header{
+    font-family:Fjalla One;
+    margin-top:40px;
+    font-size:30px;
+    color:#333;
+}
+
+.methods{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.method{
+    background:white;
+    width:400px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.title{
+    font-family:Fjalla One;
+    font-size:22px;
+    color:#111;
+}
+
+code{
+    background:#eee;
+    padding:4px 8px;
+    border-radius:5px;
+    color:#1a3cff;
+}
+
+</style>
+
+</body>
+</html>
